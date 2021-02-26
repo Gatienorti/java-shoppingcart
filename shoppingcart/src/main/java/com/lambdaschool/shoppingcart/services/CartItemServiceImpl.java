@@ -83,4 +83,9 @@ public class CartItemServiceImpl implements CartItemService
             return cartitemrepos.save(workingCartItem);
         }
     }
+
+    @Override
+    public Object findAll() {
+        return null;
+    }
 }
